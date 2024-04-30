@@ -187,7 +187,7 @@ function countRemainingLetters(selectedLetter) {
 }
 
 function gameOver() {
-    image.src = "images/gameOver.png";
+    image.src = "hangMan/images/gameOver.png";
     usedWords.push(secretWord);
     streak.textContent = 0;
     hintBtn.disabled = true;
