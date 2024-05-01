@@ -3,14 +3,12 @@
 <head>
     <title>Hang Man!</title>
     <link rel="stylesheet" href="hangman.css">
-    
 </head>
 <body>
     <section id="banner">
         <section>
             <button id="startGame" class="settingBtn">Start Game</button>
             <button id="hintBtn" class="settingBtn">HINT</button>
-        </section>
         <section>
             <button id="easy" class="difficultySetting settingBtn selectedLevel">Easy</button>
             <button id="medium" class="difficultySetting settingBtn">Medium</button>
@@ -18,8 +16,12 @@
         </section>
         
         <section id="info">
-            <h3>Word Length: <span id="wordLength"></span></h3>
-            <h3>Streak: <span id="streak">0</span></h3>
+            <div>
+                <h3>Word Length: <span id="wordLength"></span></h3>
+            </div>
+            <div>
+                <h3>Streak: <span id="streak">0</span></h3>
+            </div>
         </section>
     </section>
     <section id="guessing-container">
